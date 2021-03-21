@@ -1,0 +1,101 @@
+div {
+    border: 1px solid rgb(20, 20, 20);
+    background-color: rgb(105, 107, 105);
+    width: 100%;
+}
+.a {
+    height: 75px;
+    background-color: aqua;
+}
+.b {
+    height: 150px;
+    background-color: bisque;
+}
+.c{
+    height: 125px;
+    background-color: slateblue;
+}
+ .d {
+    height: 125px;
+    background-color: cadetblue;
+}
+.e{
+    width: 50%;
+    height: 250px;
+    background-color: orchid;
+}
+ .f{
+     width: 50%;
+     height: 250px;
+     background-color: purple;
+ }
+  .g{
+      width: 50%;
+      height: 250px;
+      background-color: yellow;
+  }
+   .h {
+    width: 50%;
+    height: 250px;
+    background-color: yellowgreen;
+}
+.i {
+    height: 80px;
+    background-color: coral;
+}
+
+@media(min-width: 768px) {
+   
+
+    .a {
+        height: 100px;
+        grid-column: 1 / 6;
+        background-color: lightcoral;
+    }
+    .b {
+        height: 600px;
+        grid-column: 1 / 2;
+        background-color: lightslategrey;
+    }
+    .c {
+        height: 200px;
+        grid-column: 2 / 4;
+        background-color: maroon;
+    }
+    .d {
+        height: 200px;
+        grid-column: 4 / 6;  
+        background-color: wheat;
+    }
+    .e {
+        height: 250px;
+        width: 100%;
+        grid-column-start: 2;
+        background-color: lightskyblue;
+    }
+    .f {
+        height: 250px;
+        width: 100%;
+        grid-column: 3 / 4;
+        background-color: forestgreen;
+    }
+    .g {
+        height: 250px;
+        width: 100%;
+        grid-column: 4 / 5;
+        background-color: gold;
+    }
+    .h {
+        height: 250px;
+        width: 100%;
+        grid-column: 5 / 6;
+        background-color:khaki
+    }
+    .i {
+        height: 150px;
+        width: 100%;
+        grid-column: 2 / 6;
+        background-color: lightcyan;
+    }
+}
+
