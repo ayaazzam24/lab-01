@@ -1,40 +1,126 @@
-.a{
-    width: 478px;
-    height: 75px;
-    background-color: purple;
+#A {
+    background-color: rgb(72, 86, 90);
+    color: black
 }
 
-.b{
-    width: 478px;
-    height: 150px;
-    background-color: blanchedalmond;
-}
-.c , .d {
-    width: 478px;
-    height: 125px;
-    display: block;
-    background-color: lightblue;
-}
-.e ,.f {
-    width: 239px;
-    height: 250px;
-    display: block;
-    float: left;
-    background-color: lightskyblue;
+#b {
+    background-color: rgb(41, 77, 97);
 }
 
-.g ,.h{
-    width: 239px;
-    height: 250px;
-    display: block;
-    float: left;
-    background-color: navy;
+#c {
+    background-color: #46393ed2;
+}
+
+#d {
+    background-color: #2f4444;
+}
+
+#e {
+    background-color: rgb(66, 61, 51);
+}
+
+#f {
+    background-color: rgb(63, 143, 83);
+    color: white
+}
+
+#g {
+    background-color: rgb(124, 165, 184);
+}
+
+#h {
+    background-color: rgb(199, 131, 154);
+}
+
+#i {
+    background-color: rgb(0, 0, 0);
+    color: rgb(13, 14, 12);
+}
+
+/* Tablet Media*/
+@media (min-width: 737px) and (max-width: 959px){
+    #A {
+        background-color: #cff7ce;
+        color: rgb(70, 90, 26);
+    }
+    
+    #b {
+        background-color: #c9b7f3;
+    }
+    
+    #c {
+        background-color: #f3c9e9;
+    }
+    
+    #d {
+        background-color: #7ea58e;
+        color: #EFF6E0;
+    }
+    
+    #e {
+        background-color: #eba99a;
+        color: #EFF6E0;
+    }
+    
+    #f {
+        background-color: #f1d1b5;
+        color: #EFF6E0;
+    }
+    
+    #g {
+        background-color: #c2c45d;
+    }
+    
+    #h {
+        background-color: #f3d6b298;
+    }
+    
+    #i {
+        background-color: #a379f2da;
+    }
 
 }
 
-.i{
-    width: 478px;
-    height:80px;
-    float: left;
-    background-color: palevioletred;
+/* Desktop Media */
+
+@media (min-width: 960px){
+    #A {
+        background-color: rgb(116, 5, 5);
+        color: rgb(248, 248, 248);
+    }
+    
+    #b {
+        background-color: rgb(226, 184, 159);
+    }
+    
+    #c {
+        background-color: rgb(192, 180, 238);
+    }
+    
+    #d {
+        background-color: rgb(187, 228, 224);
+    }
+    
+    #e {
+        background-color: rgb(163, 133, 121);
+    }
+    
+    #f {
+        background-color: #fddafd;
+        color: #080808;
+    }
+    
+    #g {
+        background-color: rgb(153, 118, 87);
+    }
+    
+    #h {
+        background-color: rgb(127, 187, 172);
+    }
+    
+    #i {
+        background-color: #b65977;
+        color: #0e0f0d;
+    }
+
 }
