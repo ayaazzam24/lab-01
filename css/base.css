@@ -1,19 +1,10 @@
-*{
-    box-sizing: border-box;
+body {
+	font-family: cursive;
+	font-weight: bolder;
+
+  background-color: rgb(173, 173, 173);
 }
 
-div{
-    background-color: rgb(134, 134, 134);
-    border: 1px solid ;
-}
-.ABA{
-    position: absolute;
-    background-color: white;
-    width: 480px;
-}
-.ABA p{
-    text-align: center;
-    font-weight: bolder;
-    
-    padding-top: 2vh;
+*{
+  box-sizing: border-box;
 }
