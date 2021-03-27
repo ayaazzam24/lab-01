@@ -1,126 +1,95 @@
-#A {
-    background-color: rgb(72, 86, 90);
-    color: black
+.g2{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.g3{
+    display: grid;
+    grid-template-rows: 25% auto 25%;
+}
+.g4{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.g5{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
 }
 
-#b {
-    background-color: rgb(41, 77, 97);
-}
 
-#c {
-    background-color: #46393ed2;
-}
 
-#d {
-    background-color: #2f4444;
-}
 
-#e {
-    background-color: rgb(66, 61, 51);
-}
 
-#f {
-    background-color: rgb(63, 143, 83);
-    color: white
-}
 
-#g {
-    background-color: rgb(124, 165, 184);
-}
 
-#h {
-    background-color: rgb(199, 131, 154);
+.a{
+    background-color: rgb(6, 41, 68);
+    /* width: 960px;
+    height: 100px; */
+    border: 1px solid black;
 }
-
-#i {
-    background-color: rgb(0, 0, 0);
-    color: rgb(13, 14, 12);
-}
-
-/* Tablet Media*/
-@media (min-width: 737px) and (max-width: 959px){
-    #A {
-        background-color: #cff7ce;
-        color: rgb(70, 90, 26);
-    }
-    
-    #b {
-        background-color: #c9b7f3;
-    }
-    
-    #c {
-        background-color: #f3c9e9;
-    }
-    
-    #d {
-        background-color: #7ea58e;
-        color: #EFF6E0;
-    }
-    
-    #e {
-        background-color: #eba99a;
-        color: #EFF6E0;
-    }
-    
-    #f {
-        background-color: #f1d1b5;
-        color: #EFF6E0;
-    }
-    
-    #g {
-        background-color: #c2c45d;
-    }
-    
-    #h {
-        background-color: #f3d6b298;
-    }
-    
-    #i {
-        background-color: #a379f2da;
-    }
+.b{
+    background-color: rosybrown;
+    /* width: 200px;
+    height: 600px; */
+    border: 1px solid black;
+    text-align: center;
 
 }
 
-/* Desktop Media */
+.c{
+    background-color: rgb(153, 152, 76);
+    /* width: 380px;
+    height: 200px; */
+    border: 1px solid black;
+    text-align: center;
+}
+.d{
+    background-color: rgb(222, 235, 222);
+    /* width: 380px;
+    height: 200px; */
+    border: 1px solid black;
+    text-align: center;
+}
 
-@media (min-width: 960px){
-    #A {
-        background-color: rgb(116, 5, 5);
-        color: rgb(248, 248, 248);
-    }
-    
-    #b {
-        background-color: rgb(226, 184, 159);
-    }
-    
-    #c {
-        background-color: rgb(192, 180, 238);
-    }
-    
-    #d {
-        background-color: rgb(187, 228, 224);
-    }
-    
-    #e {
-        background-color: rgb(163, 133, 121);
-    }
-    
-    #f {
-        background-color: #fddafd;
-        color: #080808;
-    }
-    
-    #g {
-        background-color: rgb(153, 118, 87);
-    }
-    
-    #h {
-        background-color: rgb(127, 187, 172);
-    }
-    
-    #i {
-        background-color: #b65977;
-        color: #0e0f0d;
-    }
-
+.e{
+    background-color: rgb(238, 171, 145);
+    /* width: 190px;
+    height: 250px; */
+    border: 1px solid black;
+    text-align: center;
+}
+.f{
+    background-color: rgb(189, 158, 112);
+/* width: 190px;
+height: 250px; */
+border: 1px solid black;
+text-align: center;
+}
+.g{
+    background-color: rgb(198, 107, 235);
+    /* width: 190px;
+    height: 250px; */
+    border: 1px solid black;
+    text-align: center;
+}
+.h{
+    background-color: rgb(209, 236, 110);
+    /* width: 190px;
+    height: 250px; */
+    border: 1px solid black;
+    text-align: center;
+}
+.i{
+    background-color: rgb(207, 121, 63);
+    /* width: 760px;
+    height: 150px; */
+    /* position: relative;
+    bottom: 150px;
+    left: 200px; */
+    border: 1px solid black;
+    text-align: center;
+  
+}
+div p{
+    text-align: center;
 }
