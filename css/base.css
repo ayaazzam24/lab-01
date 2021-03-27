@@ -1,10 +1,14 @@
-body {
-	font-family: cursive;
-	font-weight: bolder;
-
-  background-color: rgb(173, 173, 173);
-}
-
 *{
   box-sizing: border-box;
+}
+body{
+background-color: cornsilk;
+}
+.ABA{
+  background-color: rgb(161, 161, 156);
+   width: 960px;
+   height: 700px;
+   margin: auto;
+   display: grid;
+  grid-template-rows: 15% auto;
 }
